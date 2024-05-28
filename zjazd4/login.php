@@ -14,5 +14,8 @@
     <input type="password" id="password" name="password" required><br><br>
     <input type="submit" value="Zaloguj">
 </form>
+<form action="index.html" method="post">
+    <input type="submit" value="Powrót">
+</form>
 </body>
 </html>

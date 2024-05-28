@@ -3,6 +3,8 @@ session_start();
 
 if (!isset($_SESSION['loggedin'])) {
     echo "Nie masz dostępu do tej części strony. Proszę się zalogować.";
+    echo "<a href='login.php'>Zaloguj</a>";
+    echo "<a href='index.html'>Powrót</a>";
     exit;
 }
 
